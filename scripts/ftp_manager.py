@@ -32,7 +32,7 @@ ENDPOINT_PREPARE_PUBLISH = '/api/openclaw/site_publish/preparePublish'
 
 def load_config():
     """加载配置"""
-    base_url = os.environ.get("AIBOX_BASE_URL", "https://ai.nicebox.cn/api/openclaw")
+    base_url = os.environ.get("AIBOX_BASE_URL", "https://ai.qidc.cn/api/openclaw")
     api_key = os.environ.get("AIBOX_API_KEY", "")
     site_id = os.environ.get("AIBOX_SITE_ID", "")
 
