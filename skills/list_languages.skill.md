@@ -1,12 +1,12 @@
 ---
 name: list-languages
-description: List available languages for your NiceBox site
+description: List available languages for your Qidc site
 metadata: {"clawdbot":{"emoji":"[LANG]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 
 # List Site Languages
 
-List available languages configured for your NiceBox site.
+List available languages configured for your Qidc site.
 
 ## Usage
 

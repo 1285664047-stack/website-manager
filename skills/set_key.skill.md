@@ -62,8 +62,8 @@ export AIBOX_API_KEY="your_api_key"
 ## Base URL (Usually No Need to Modify)
 
 ```bash
-# Only set if NiceBox API address changes
-$env:AIBOX_BASE_URL="https://ai.nicebox.cn/api/openclaw"
+# Only set if Qidc API address changes
+$env:AIBOX_BASE_URL="https://ai.qidc.cn/api/openclaw"
 ```
 
 ## Notes

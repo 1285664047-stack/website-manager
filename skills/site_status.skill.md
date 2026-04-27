@@ -1,12 +1,12 @@
 ---
 name: site-status
-description: Check current status of your NiceBox site
+description: Check current status of your Qidc site
 metadata: {"clawdbot":{"emoji":"[STATUS]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 
 # Site Status
 
-Check the current status of your NiceBox site.
+Check the current status of your Qidc site.
 
 ## Usage
 

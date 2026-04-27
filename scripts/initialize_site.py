@@ -13,7 +13,7 @@ import urllib.request
 import urllib.error
 
 
-DEFAULT_BASE_URL = "https://ai.nicebox.cn/api/openclaw"
+DEFAULT_BASE_URL = "https://ai.qidc.cn/api/openclaw"
 ENDPOINT_INITIALIZE = "/template/initializeData"
 
 
@@ -39,7 +39,7 @@ def http_post_json(url: str, api_key: str, payload: dict, timeout: int = 60):
             "Authorization": api_key,
             "Content-Type": "application/json",
             "Accept": "application/json",
-            "User-Agent": "nicebox-openclaw-skill/1.0",
+            "User-Agent": "qidc-openclaw-skill/1.0",
         },
     )
     try:
@@ -55,7 +55,7 @@ def http_post_json(url: str, api_key: str, payload: dict, timeout: int = 60):
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Initialize NiceBox site data (WARNING: clears all content)",
+        description="Initialize Qidc site data (WARNING: clears all content)",
         epilog="Example: python initialize_site.py"
     )
     parser.add_argument(

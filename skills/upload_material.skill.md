@@ -1,12 +1,12 @@
 ---
 name: upload-material
-description: Upload materials (images, files) to your NiceBox site
+description: Upload materials (images, files) to your Qidc site
 metadata: {"clawdbot":{"emoji":"[UPLOAD]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 
 # Upload Material
 
-Upload materials (images, files) to your NiceBox site.
+Upload materials (images, files) to your Qidc site.
 
 ## Usage
 
@@ -42,7 +42,7 @@ Returns the uploaded material URL:
 {
   "code": 0,
   "data": {
-    "url": "https://cdn.nicebox.cn/uploads/2024/01/logo.png",
+    "url": "https://cdn.qidc.cn/uploads/2024/01/logo.png",
     "filename": "logo.png",
     "size": 102400
   }

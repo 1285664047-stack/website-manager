@@ -27,7 +27,7 @@ try:
 except Exception:
     pass
 
-BASE_URL = os.environ.get("AIBOX_BASE_URL", "https://ai.nicebox.cn/api/openclaw")
+BASE_URL = os.environ.get("AIBOX_BASE_URL", "https://ai.qidc.cn/api/openclaw")
 API_KEY = os.environ.get("AIBOX_API_KEY", "")
 
 ENDPOINT_LANGUAGE_LIST = f"{BASE_URL}/site_pages/getLanguageList"
@@ -658,7 +658,7 @@ def do_generate(state):
 
 def check_site_languages():
     headers = {"Authorization": API_KEY, "Content-Type": "application/json",
-               "User-Agent": "nicebox-openclaw-skill/1.0"}
+               "User-Agent": "qidc-openclaw-skill/1.0"}
     try:
         req = urllib.request.Request(ENDPOINT_LANGUAGE_LIST, data=b"{}",
                                       headers=headers, method="GET")
@@ -673,7 +673,7 @@ def check_site_languages():
 
 def initialize_site():
     headers = {"Authorization": API_KEY, "Content-Type": "application/json",
-               "User-Agent": "nicebox-openclaw-skill/1.0"}
+               "User-Agent": "qidc-openclaw-skill/1.0"}
     try:
         req = urllib.request.Request(
             ENDPOINT_INITIALIZE,
@@ -693,7 +693,7 @@ def initialize_site():
 def call_get_company_info(collected):
     info = sanitize_company_info(collected)
     headers = {"Authorization": API_KEY, "Content-Type": "application/json",
-               "User-Agent": "nicebox-openclaw-skill/1.0"}
+               "User-Agent": "qidc-openclaw-skill/1.0"}
     try:
         req = urllib.request.Request(
             ENDPOINT_GET_COMPANY_INFO,
@@ -713,7 +713,7 @@ def call_get_company_info(collected):
 def call_generate_share_url():
     """获取临时分享链接"""
     headers = {"Authorization": API_KEY, "Content-Type": "application/json",
-               "User-Agent": "nicebox-openclaw-skill/1.0"}
+               "User-Agent": "qidc-openclaw-skill/1.0"}
     try:
         req = urllib.request.Request(ENDPOINT_GENERATE_SHARE_URL,
                                      headers=headers, method="GET")
@@ -734,7 +734,7 @@ def call_read_index_html():
     返回 {"status": True/False, "message": "..."}
     """
     headers = {"Authorization": API_KEY, "Content-Type": "application/json",
-               "User-Agent": "nicebox-openclaw-skill/1.0"}
+               "User-Agent": "qidc-openclaw-skill/1.0"}
     try:
         req = urllib.request.Request(ENDPOINT_READ_INDEX_HTML,
                                      headers=headers, method="GET")
@@ -764,7 +764,7 @@ def call_generate_website(requirement):
         "Authorization": API_KEY,
         "Content-Type": "application/json",
         "Accept": "text/event-stream",
-        "User-Agent": "nicebox-openclaw-skill/1.0",
+        "User-Agent": "qidc-openclaw-skill/1.0",
     }
 
     # 初始化 html_content 避免 UnboundLocalError

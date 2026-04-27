@@ -1,6 +1,6 @@
 import urllib.request, json, os, sys
 
-BASE = 'https://ai.nicebox.cn/api/openclaw'
+BASE = 'https://ai.qidc.cn/api/openclaw'
 API_KEY = os.environ.get('AIBOX_API_KEY', '456_478_b2130323e69bcac2cbb31ddfa2e80867a96fdd81fc34d6e8')
 
 # 构建需求字符串
@@ -35,7 +35,7 @@ try:
     print(f'\n共接收: {len(html_content)} 字节')
 
     # 保存到文件
-    with open('C:/Users/MR/.qclaw/skills/nicebox-site-manager/scripts/generated.html', 'wb') as f:
+    with open('C:/Users/MR/.qclaw/skills/website-manager/scripts/generated.html', 'wb') as f:
         f.write(html_content)
     print('已保存到 generated.html')
 

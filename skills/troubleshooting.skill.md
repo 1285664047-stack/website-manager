@@ -1,12 +1,12 @@
 ---
 name: troubleshooting
-description: Troubleshooting guide for NiceBox site management issues
+description: Troubleshooting guide for Qidc site management issues
 metadata: {"clawdbot":{"emoji":"[TROUBLE]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 
 # Troubleshooting Guide
 
-Common issues and solutions for NiceBox site management.
+Common issues and solutions for Qidc site management.
 
 ## SIGKILL Problem (Fixed)
 
@@ -42,11 +42,11 @@ If `generateWebsite` returns `{"type":"error","content":"参数缺失，无法�
 ## FTP Interface 404: Wrong Path
 
 FTP-related endpoints use `site_publish` path, NOT `ftp`. Full paths:
-- `https://ai.nicebox.cn/api/openclaw/site_publish/getConfig`
-- `https://ai.nicebox.cn/api/openclaw/site_publish/getServerInfo`
-- `https://ai.nicebox.cn/api/openclaw/site_publish/updateFtpConfig`
-- `https://ai.nicebox.cn/api/openclaw/site_publish/testFtpConnection`
-- `https://ai.nicebox.cn/api/openclaw/site_publish/publish`
+- `https://ai.qidc.cn/api/openclaw/site_publish/getConfig`
+- `https://ai.qidc.cn/api/openclaw/site_publish/getServerInfo`
+- `https://ai.qidc.cn/api/openclaw/site_publish/updateFtpConfig`
+- `https://ai.qidc.cn/api/openclaw/site_publish/testFtpConnection`
+- `https://ai.qidc.cn/api/openclaw/site_publish/publish`
 
 **Never guess API paths from memory.**
 

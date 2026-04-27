@@ -1,7 +1,7 @@
 import urllib.request, json, sys, time as time_module
 sys.stdout.reconfigure(encoding='utf-8')
 API_KEY = '456_478_b2130323e69bcac2cbb31ddfa2e80867a96fdd81fc34d6e8'
-BASE = 'https://ai.nicebox.cn/api/openclaw'
+BASE = 'https://ai.qidc.cn/api/openclaw'
 
 print('Step 1: initializeData...')
 req_init = urllib.request.Request(BASE+'/template/initializeData',

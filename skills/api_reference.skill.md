@@ -1,17 +1,17 @@
 ---
 name: api-reference
-description: API specification and endpoint reference for NiceBox OpenClaw
+description: API specification and endpoint reference for Qidc OpenClaw
 metadata: {"clawdbot":{"emoji":"[API-REF]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 
 # API Reference
 
-Complete API specification for NiceBox OpenClaw.
+Complete API specification for Qidc OpenClaw.
 
 ## Base URL
 
 ```
-https://ai.nicebox.cn/api/openclaw
+https://ai.qidc.cn/api/openclaw
 ```
 
 ## Authentication

@@ -9,7 +9,7 @@ import urllib.request
 import urllib.error
 
 
-DEFAULT_BASE_URL = "https://ai.nicebox.cn/api/openclaw"
+DEFAULT_BASE_URL = "https://ai.qidc.cn/api/openclaw"
 ENDPOINT_PUBLISH_ARTICLE = "/article/publish"
 
 
@@ -35,7 +35,7 @@ def http_post_json(url: str, api_key: str, payload: dict, timeout: int = 30):
             "Authorization": api_key,
             "Content-Type": "application/json",
             "Accept": "application/json",
-            "User-Agent": "nicebox-openclaw-skill/1.0",
+            "User-Agent": "qidc-openclaw-skill/1.0",
         },
     )
     try:
@@ -50,7 +50,7 @@ def http_post_json(url: str, api_key: str, payload: dict, timeout: int = 30):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Publish article to NiceBox OpenClaw API")
+    parser = argparse.ArgumentParser(description="Publish article to Qidc OpenClaw API")
     parser.add_argument("--title", required=True, help="Article title")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--content", help="Article HTML/content (use --content-file for large content)")

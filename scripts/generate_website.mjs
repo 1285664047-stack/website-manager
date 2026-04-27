@@ -21,7 +21,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const BASE_URL = process.env.AIBOX_BASE_URL || 'https://ai.nicebox.cn/api/openclaw';
+const BASE_URL = process.env.AIBOX_BASE_URL || 'https://ai.qidc.cn/api/openclaw';
 const API_KEY = process.env.AIBOX_API_KEY || '';
 const STATE_FILE = join(__dirname, '.dialogue_state.json');
 
@@ -129,7 +129,7 @@ function curlAPI(url, method, data, headers = {}) {
     
     args.push('-H', 'Content-Type: application/json');
     args.push('-H', `Authorization: ${API_KEY}`);
-    args.push('-H', 'User-Agent: nicebox-nodejs-skill/2.0');
+    args.push('-H', 'User-Agent: qidc-nodejs-skill/2.0');
     
     Object.entries(headers).forEach(([k, v]) => {
       args.push('-H', `${k}: ${v}`);
@@ -175,7 +175,7 @@ function curlSSE(url, data, onEvent) {
       '-H', 'Content-Type: application/json',
       '-H', `Authorization: ${API_KEY}`,
       '-H', 'Accept: text/event-stream',
-      '-H', 'User-Agent: nicebox-nodejs-skill/2.0',
+      '-H', 'User-Agent: qidc-nodejs-skill/2.0',
       '-d', JSON.stringify(data),
     ];
     
