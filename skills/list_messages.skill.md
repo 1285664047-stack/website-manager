@@ -1,6 +1,6 @@
 ---
 name: list-messages
-description: List messages, inquiries, or leads from your Qidc site
+description: List messages, inquiries, or leads from your AiWebSite site
 metadata: {"clawdbot":{"emoji":"[MSG]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 

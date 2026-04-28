@@ -1,6 +1,6 @@
 ---
 name: list-categories
-description: List article and product categories from your Qidc site
+description: List article and product categories from your AiWebSite site
 metadata: {"clawdbot":{"emoji":"[CATEG]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 

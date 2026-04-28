@@ -50,7 +50,7 @@ def http_post_json(url: str, api_key: str, payload: dict, timeout: int = 30):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Publish article to Qidc OpenClaw API")
+    parser = argparse.ArgumentParser(description="Publish article to AiWebSite OpenClaw API")
     parser.add_argument("--title", required=True, help="Article title")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--content", help="Article HTML/content (use --content-file for large content)")

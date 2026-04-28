@@ -62,7 +62,7 @@ export AIBOX_API_KEY="your_api_key"
 ## Base URL (Usually No Need to Modify)
 
 ```bash
-# Only set if Qidc API address changes
+# Only set if AiWebSite API address changes
 $env:AIBOX_BASE_URL="https://ai.qidc.cn/api/openclaw"
 ```
 

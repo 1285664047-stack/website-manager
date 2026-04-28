@@ -1,6 +1,6 @@
 ---
 name: publish-product
-description: Publish products to your Qidc site
+description: Publish products to your AiWebSite site
 metadata: {"clawdbot":{"emoji":"[PRODUCT]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 

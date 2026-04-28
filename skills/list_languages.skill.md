@@ -1,12 +1,12 @@
 ---
 name: list-languages
-description: List available languages for your Qidc site
+description: List available languages for your AiWebSite site
 metadata: {"clawdbot":{"emoji":"[LANG]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 
 # List Site Languages
 
-List available languages configured for your Qidc site.
+List available languages configured for your AiWebSite site.
 
 ## Usage
 

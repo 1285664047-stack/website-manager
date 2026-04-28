@@ -53,7 +53,7 @@ def http_get(url: str, api_key: str, timeout: int = 30):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="List messages from Qidc OpenClaw API")
+    parser = argparse.ArgumentParser(description="List messages from AiWebSite OpenClaw API")
     parser.add_argument("--page", type=int, default=1, help="Page number")
     parser.add_argument("--page-size", type=int, default=20, help="Items per page")
     parser.add_argument("--is-read", choices=["0", "1"], default=None, help="0 unread, 1 read")

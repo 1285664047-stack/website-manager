@@ -55,7 +55,7 @@ def http_post_json(url: str, api_key: str, payload: dict, timeout: int = 60):
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Initialize Qidc site data (WARNING: clears all content)",
+        description="Initialize AiWebSite site data (WARNING: clears all content)",
         epilog="Example: python initialize_site.py"
     )
     parser.add_argument(

@@ -1,12 +1,12 @@
 ---
 name: troubleshooting
-description: Troubleshooting guide for Qidc site management issues
+description: Troubleshooting guide for AiWebSite site management issues
 metadata: {"clawdbot":{"emoji":"[TROUBLE]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 
 # Troubleshooting Guide
 
-Common issues and solutions for Qidc site management.
+Common issues and solutions for AiWebSite site management.
 
 ## SIGKILL Problem (Fixed)
 

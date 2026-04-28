@@ -1,12 +1,12 @@
 ---
 name: generate-share-url
-description: Generate temporary share URL for your Qidc website
+description: Generate temporary share URL for your AiWebSite website
 metadata: {"clawdbot":{"emoji":"[URL]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 
 # Generate Share URL
 
-Generate a temporary share URL for your Qidc website. The share URL allows others to preview your website without publishing it.
+Generate a temporary share URL for your AiWebSite website. The share URL allows others to preview your website without publishing it.
 
 ## Usage
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-_full_gen.py - Qidc 网站生成一次性脚本
+_full_gen.py - AiWebSite 网站生成一次性脚本
 
 用法：
   方式1：命令行参数
@@ -105,7 +105,7 @@ def get_user_input():
 
 def main():
     # 解析命令行参数
-    parser = argparse.ArgumentParser(description='Qidc 网站生成一次性脚本')
+    parser = argparse.ArgumentParser(description='AiWebSite 网站生成一次性脚本')
     parser.add_argument('--company-name', dest='company_name', help='公司名称（必填）')
     parser.add_argument('--industry', help='行业')
     parser.add_argument('--business-scope', dest='business_scope', help='业务范围')

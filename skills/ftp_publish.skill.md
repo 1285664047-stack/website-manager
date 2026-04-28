@@ -1,6 +1,6 @@
 ---
 name: ftp-publish
-description: Test FTP connection and publish your Qidc website to FTP server
+description: Test FTP connection and publish your AiWebSite website to FTP server
 metadata: {"clawdbot":{"emoji":"[FTP]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 

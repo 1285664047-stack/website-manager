@@ -53,7 +53,7 @@ def http_get(url: str, api_key: str, timeout: int = 30):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="List article categories from Qidc OpenClaw API")
+    parser = argparse.ArgumentParser(description="List article categories from AiWebSite OpenClaw API")
     parser.add_argument("--keyword", default="", help="Search keyword")
     parser.add_argument("--locale", default="", help="Locale")
     parser.add_argument("--base-url", default=get_env("AIBOX_BASE_URL", DEFAULT_BASE_URL), help="API base URL")

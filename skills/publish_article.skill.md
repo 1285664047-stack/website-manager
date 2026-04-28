@@ -1,6 +1,6 @@
 ---
 name: publish-article
-description: Publish articles to your Qidc site
+description: Publish articles to your AiWebSite site
 metadata: {"clawdbot":{"emoji":"[ARTICLE]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 
@@ -15,7 +15,7 @@ python3 {baseDir}/scripts/publish_article.py \
   --title "Hello World" \
   --content "<p>This is article content</p>" \
   --summary "Optional summary" \
-  --author "Qidc AI" \
+  --author "AiWebSite AI" \
   --cover "https://example.com/cover.jpg" \
   --status publish
 ```
@@ -39,9 +39,9 @@ python3 {baseDir}/scripts/publish_article.py \
 ```bash
 # Publish an article
 python3 {baseDir}/scripts/publish_article.py \
-  --title "如何使用 Qidc" \
-  --content "<p>Qidc 是一个强大的网站生成工具...</p>" \
-  --summary "Qidc 使用指南" \
+  --title "如何使用 AiWebSite" \
+  --content "<p>AiWebSite 是一个强大的网站生成工具...</p>" \
+  --summary "AiWebSite 使用指南" \
   --author "技术团队" \
   --cover "https://example.com/qidc.jpg" \
   --status publish

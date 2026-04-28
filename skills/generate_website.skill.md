@@ -1,12 +1,12 @@
 ---
 name: generate-website
-description: Generate websites using Qidc AI with interactive dialogue or direct API call
+description: Generate websites using AiWebSite AI with interactive dialogue or direct API call
 metadata: {"clawdbot":{"emoji":"[GEN]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 
 # Generate Website
 
-Generate a complete website for your business using Qidc AI.
+Generate a complete website for your business using AiWebSite AI.
 
 ## [API] Direct API Call (Recommended)
 

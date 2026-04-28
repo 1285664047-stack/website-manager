@@ -1,12 +1,12 @@
 ---
 name: upload-material
-description: Upload materials (images, files) to your Qidc site
+description: Upload materials (images, files) to your AiWebSite site
 metadata: {"clawdbot":{"emoji":"[UPLOAD]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 
 # Upload Material
 
-Upload materials (images, files) to your Qidc site.
+Upload materials (images, files) to your AiWebSite site.
 
 ## Usage
 

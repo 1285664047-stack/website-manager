@@ -1,12 +1,12 @@
 ---
 name: api-reference
-description: API specification and endpoint reference for Qidc OpenClaw
+description: API specification and endpoint reference for AiWebSite OpenClaw
 metadata: {"clawdbot":{"emoji":"[API-REF]","requires":{"env":["AIBOX_API_KEY"]},"primaryEnv":"AIBOX_API_KEY"}}
 ---
 
 # API Reference
 
-Complete API specification for Qidc OpenClaw.
+Complete API specification for AiWebSite OpenClaw.
 
 ## Base URL
 
